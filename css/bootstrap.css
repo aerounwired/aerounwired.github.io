@@ -1400,7 +1400,10 @@ pre code {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+  text-align: center;
+  
 }
+
 .photo{
     background-image: url("images/alumni/jothi.jpg");
     width: 200px;

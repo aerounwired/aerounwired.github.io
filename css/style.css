@@ -3,6 +3,10 @@
 @import url('font-awesome.css');
 /* ==== overwrite bootstrap standard ==== */
 @import url('animate.css');
+.logo1{
+    width: 100px;
+    height: 70px;
+}
 .mentor{
     text-align: center;
    width:50%;
@@ -79,6 +83,18 @@
         float: none;
         width: 100%;
     }
+    .logo1{
+        width:70px;
+            height:50px;
+    }
+    .menu ul.nav-tabs li {
+	color:#000;
+        float: right;
+        text-align: center;
+        width:100%;
+        
+    }
+    
 }
 
 .proj{
@@ -266,11 +282,13 @@ a:hover {
 	font-size:12px;
 	float:right;
 	text-transform:uppercase;
-	font-weight:700;	
+	font-weight:700;
+        
 }
 
 .menu ul.nav-tabs li {
-	color:#000;	
+	color:#000;
+        
 }
 
 .nav-tabs {

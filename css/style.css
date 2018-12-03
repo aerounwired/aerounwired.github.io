@@ -3,6 +3,15 @@
 @import url('font-awesome.css');
 /* ==== overwrite bootstrap standard ==== */
 @import url('animate.css');
+.alumnii{
+    text-align: center;
+    width: 100%;
+    height: auto;
+}
+.img-fac{
+    width: 230px;
+    height: 300px;
+}
 .logo1{
     width: 100px;
     height: 70px;
@@ -68,6 +77,12 @@
   
     
 }
+.fac-p{
+    line-height: 20px;
+    font-weight: 200;
+    font-size: 17px;
+    font-family: Archivo;
+}
 @media (max-width:768px)
 {
     .contacts{
@@ -94,7 +109,9 @@
         width:100%;
         
     }
-    
+    .img-fac{
+        transform: scale(.7);
+    }
 }
 
 .proj{
@@ -176,15 +193,15 @@ active1{
 
 body {
 	font-family:'Open Sans', Arial, sans-serif;
-	font-size:14px;
+	font-size:16px;
 	font-weight:300;
 	line-height:1.6em;
 	
 	overflow-x:hidden;
 }
 
-hi,h2,h3,h4,h5,h6 {
-	color:#333;
+h1,h2,h3,h4,h5,h6 {
+	color:#4e4e4e;
 	line-height:1.1em;
 }
 
@@ -624,7 +641,7 @@ a:hover {
   height: 20px;
   line-height: 20px;
   text-align: center;
-  font-size: 12px;
+  font-size: 16px;
   font-weight: 700;
   top: -30px;
   border-radius: 2px;
@@ -795,7 +812,8 @@ ul.social-network li a {
 
 .services p {
 	margin-top:30px;
-	font-size:13px;
+	font-size:15px;
+        font-family:Source Sans;
 }
 
 .sub-services {
@@ -805,11 +823,16 @@ ul.social-network li a {
 
 .sub-services p {
 	margin-top:30px;
-	font-size:13px;
+	font-size:15px;
+         font-family:Source Sans;
 }
 
+.media .p{
+     font-family:Source Sans;
+}
 .media-body p {
 	margin-bottom:30px;
+         font-family:Roboto, Montserrat,Source Sans;
 }
 
 .media ul li {

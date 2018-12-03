@@ -796,6 +796,7 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 	-moz-animation-name: fadeInDown;
 	-o-animation-name: fadeInDown;
 	animation-name: fadeInDown;
+        
 }
 @media (max-width:768px){
     .fadeInDown{
@@ -803,6 +804,8 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 	-moz-animation-name: none;
 	-o-animation-name: none;
 	animation-name: none;
+        animation-delay: 0s;
+      
     }
 }
 @-webkit-keyframes fadeInLeft {

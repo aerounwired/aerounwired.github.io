@@ -1,0 +1,59 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 27 Feb, 2019, 6:42:15 PM
+    Author     : Aashish
+*/
+
+
+.sidepanel  {
+  width: 0;
+  position: absolute;
+  z-index: 1;
+  height: 100%;
+  bottom: 0;
+  right: 0;
+  
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+.sidepanel p{
+    color:white;
+    font-family: Verdana, Geneva, sans-serif;
+}
+.sidepanel a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidepanel a:hover {
+  color: #f1f1f1;
+}
+
+.sidepanel .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+}
+
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: transparent;
+  color: white;
+  padding: 0px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color:transparent;}

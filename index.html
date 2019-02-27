@@ -19,6 +19,7 @@
 	<link href="css/style.css" rel="stylesheet" />	
         <link href="css/profile.css" rel="stylesheet" />
          <link href="css/hover.css" rel="stylesheet" />
+           <link href="css/h.css" rel="stylesheet" />
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -271,8 +272,16 @@
                                   <p class="dis1">Sponsor Us?</p>
                                   <div> Interested in sponsoring us. Start right now
                                       
+                                      <div id="mySidepanel" class="sidepanel">
+                                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+                                        <p> Why do we need your help?<br>
+                                            Unfortunately, a major problem in participating in the above events is the lack of funds. Aero-Unwired intends to take part in the SAE ADC 2018 and Pragyan 2018. The team requires money for the fabrication of the plane, which requires balsa and for the electronic components which are used to control the plane. We are also involved in community projects for which we are short of money. Both events are coming soon and we need to start on these as soon as possible.
+                                            Proceed to Milaap Crowdfunding site <a href="https://milaap.org/fundraisers/aerounwired">Milaap</a></p>
+                                        <p>Contact Marketing Head for more info<a href="contact.html">Click here</a></p>
+                                       
                                       </div>
-                                           <div class="ion">
+                                      </div>
+                                           <div class="ion openbtn" onclick="openNav()">
                                                <div class="svg-wrapper">
                                               <svg height="60" width="320" xmlns="http://www.w3.org/2000/svg">
                                                 <rect class="shape" height="60" width="320" />
@@ -327,7 +336,13 @@
 <script>
 var myVar;
 
+function openNav() {
+  document.getElementById("mySidepanel").style.width = "100%";
+}
 
+function closeNav() {
+  document.getElementById("mySidepanel").style.width = "0";
+}
 function myFunction() {
     myVar = setTimeout(showPage, 2500);
 }

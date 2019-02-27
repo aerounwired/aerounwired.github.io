@@ -25,7 +25,19 @@
     <![endif]-->
   
   </head>
-  <body>
+  <body onload="myFunction()" style="margin: 0px">
+      <section id="loader" class="wrapper">
+  <div class="spinner">
+    <i></i>
+    <i></i>
+    <i></i>
+    <i></i>
+    <i></i>
+    <i></i>
+    <i></i>
+  </div>
+</section>
+<div id="page" style="display: none">
 	<header>		
 		<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
 			<div class="navigation">
@@ -150,7 +162,7 @@ search and rescue, surveillance and traffic monitoring [2] etc.</p>
 						
 			<div  class="col-md-6">
 				<img src="images/projects/vtol1.jpg" class="img-responsive">
-				<p id="lg">Vertical Take Off and Landing aims to eliminate the need for runways for aircrafts. In theory, it should offer better maneuverability and more fuel efficiency than an aircraft using a runway. However, a truly efficient model has yet to be developed which realizes this. While there exist several helicopters in the world, there does not exist a convention winged aircraft with VTOL capabilities. Vertical Take Off and Landing aims to eliminate the need for runways for aircrafts. In theory, it should offer better maneuverability and more fuel efficiency than an aircraft using a runway. However, a truly efficient model has yet to be developed which realizes this. While there exist several helicopters in the world, there does not exist a convention winged aircraft with VTOL capabilities. </p>
+				<p id="lg">Vertical Take Off and Landing aims to eliminate the need for runways for aircrafts. In theory, it should offer better maneuverability and more fuel efficiency than an aircraft using a runway. However, a truly efficient model has yet to be developed which realizes this. While there exist several helicopters in the world, there does not exist a convention winged aircraft with VTOL capabilities. </p>
 			</div>
 		</div>
 	</div>
@@ -322,7 +334,7 @@ search and rescue, surveillance and traffic monitoring [2] etc.</p>
 			</div>
 		</div>
 	</footer>
-	
+	</div>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 	<script src="js/jquery-2.1.1.min.js"></script>	
     <!-- Include all compiled plugins (below), or include individual files as needed -->
@@ -331,6 +343,19 @@ search and rescue, surveillance and traffic monitoring [2] etc.</p>
     <script src="js/jquery.isotope.min.js"></script>  
 	<script src="js/wow.min.js"></script>
 	<script src="js/functions.js"></script>
-	
+	<script>
+var myVar;
+
+
+function myFunction() {
+    myVar = setTimeout(showPage, 2500);
+}
+
+function showPage() {
+  document.getElementById("loader").style.display = "none";
+  document.getElementById("page").style.display = "block";
+}
+</script>
+
   </body>
 </html>

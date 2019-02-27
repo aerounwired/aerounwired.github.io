@@ -24,7 +24,19 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
-  <body>
+  <body onload="myFunction()" style="margin: 0px">
+      <section id="loader" class="wrapper">
+  <div class="spinner">
+    <i></i>
+    <i></i>
+    <i></i>
+    <i></i>
+    <i></i>
+    <i></i>
+    <i></i>
+  </div>
+</section>
+<div id="page" style="display: none">
 	<header>		
 		<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
 			<div class="navigation">
@@ -195,7 +207,7 @@
 			</div>
 		</div>
 	</footer>
-	
+	</div>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 	<script src="js/jquery-2.1.1.min.js"></script>	
     <!-- Include all compiled plugins (below), or include individual files as needed -->
@@ -204,6 +216,19 @@
     <script src="js/jquery.isotope.min.js"></script>  
 	<script src="js/wow.min.js"></script>
 	<script src="js/functions.js"></script>
-	
+	<script>
+var myVar;
+
+
+function myFunction() {
+    myVar = setTimeout(showPage, 2500);
+}
+
+function showPage() {
+  document.getElementById("loader").style.display = "none";
+  document.getElementById("page").style.display = "block";
+}
+</script>
+
   </body>
 </html>

@@ -286,6 +286,10 @@ div.spinner i:nth-child(8) {
     width: 230px;
     height: 300px;
 }
+.img-stu{
+    width:100px;
+    height:100px;
+}
 .logo1{
     width: 100px;
     height: 70px;
@@ -294,7 +298,13 @@ div.spinner i:nth-child(8) {
     text-align: center;
    width:50%;
    float:left;
-    display: inline-bloack;
+    display: inline-block;
+}
+.student{
+      text-align: center;
+   width:33.33%;
+   float: left;
+    display: inline-block;
 }
 
 .gmail{
@@ -351,8 +361,24 @@ div.spinner i:nth-child(8) {
   
     
 }
+.yr{
+    text-align: center;
+    font-weight: 600;
+    width: 100%;
+    float:left;
+    position: relative;
+    font-family: Neue Helvetica®,Avenir;
+    padding: 20px;
+    font-size: 20px;
+}
 .fac-p{
     line-height: 20px;
+    font-weight: 200;
+    font-size: 17px;
+    font-family: Caviar Dreams, Arial;
+}
+.stu-p{
+    
     font-weight: 200;
     font-size: 17px;
     font-family: Archivo;
@@ -372,6 +398,12 @@ div.spinner i:nth-child(8) {
         float: none;
         width: 100%;
     }
+    .student{
+       
+        float: none;
+        width: 100%;
+    
+    }
     .logo1{
         width:70px;
             height:50px;
@@ -385,6 +417,9 @@ div.spinner i:nth-child(8) {
     }
     .img-fac{
         transform: scale(.7);
+    }
+    .img-stu{
+        transform: scale(.9);
     }
     section.wrapper{
         transform: scale(.6);

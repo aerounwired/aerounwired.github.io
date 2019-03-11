@@ -490,7 +490,7 @@ content: "\f013";
 }
 @media (max-width:768px){
     .c1{
-        width:220px;
+        width:100%;
         border-bottom: 2px solid black;
         border-right:none;
     }

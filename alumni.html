@@ -20,6 +20,7 @@
 	<link href="css/style.css" rel="stylesheet" />
         <link href="css/profile.css" rel="stylesheet" />
          <link href="css/hover.css" rel="stylesheet" />
+            <link href="css/h.css" rel="stylesheet" />
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -94,29 +95,7 @@
            -->
            <div class="alumnii">
                
-                <!--       CARD FOR PROFILE
-                        <div class="card wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
-                     
-                      <h1>Kaushik</h1>
-                      <div class="al"></div>
-                      <br>
-                      <p class="title2">Mechanical Engineering</p>
-                      
-                      <h4>Batch 2012-2016</h4>
-                      <br>
-                     <div class="colo">
-                      <p class="title1">COO,<br> Dermicos Products</p>
-                      <br>
-                      <p>Worked in the past <br><b>Senior Manager</b><br>Production Line Department<br>Small Commercial Vehicles Tata Motors Ltd <br> (2016-2018)</p>
-                      
-                      <a href="#"><i class="fa fa-dribbble"></i></a> 
-                      <a href="#"><i class="fa fa-twitter"></i></a> 
-                      <a href="www.linkedin.com/in/garikipati" title="Linkedin"><i class="fa fa-linkedin"></i></a> 
-                      <a href="#"><i class="fa fa-facebook"></i></a> 
-                      <br><br>
-                      </div>
-                    </div>
-                      -->
+                
                       
                     <div class="card wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
                         <div class="colo">
@@ -139,9 +118,7 @@
                             <br><br>
                          </div>
                     </div>
-                      
-                
-                       <div class="card wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
+                     <div class="card wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
                         <div class="colo">
                           <h1>Kunal Kamble</h1>
                           <div class="al"></div>
@@ -416,7 +393,16 @@
                                   <div> Interested in sponsoring us. Start right now
                                       
                                       </div>
-                                           <div class="ion">
+                                  <div id="overlay1" onclick="off()">
+                                        <div id="text1">
+                                            
+                                            <p class="hdd"> Why do we need your help?<br></p>
+                                            <p class="hdd1">Unfortunately, a major problem in participating in the above events is the lack of funds. Aero-Unwired intends to take part in the SAE ADC 2018 and Pragyan 2018. The team requires money for the fabrication of the plane, which requires balsa and for the electronic components which are used to control the plane. We are also involved in community projects for which we are short of money. Both events are coming soon and we need to start on these as soon as possible.
+                                                <br><br>Proceed to Milaap Crowdfunding site <br><a class="hdd2" href="https://milaap.org/fundraisers/aerounwired">Milaap</a></p>
+                                        <p class="hdd1">Contact Marketing Head for more info<br><a class="hdd2" href="contact.html">Click here</a></p>
+                                        </div>
+                                      </div>
+                                           <div class="ion openbtn" onclick="on()">
                                                <div class="svg-wrapper">
                                               <svg height="60" width="320" xmlns="http://www.w3.org/2000/svg">
                                                 <rect class="shape" height="60" width="320" />
@@ -433,7 +419,7 @@
 					<div class="col-md-12">
 						<ul class="social-network">
 							<li><a href="https://www.facebook.com/UnwiredAeroNitCalicut/" class="fb tool-tip" title="Facebook"><i class="fa fa-facebook"></i></a></li>
-							<li><a href="https://twitter.com/aero_unwired" class="twitter tool-tip" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+							<li><a href="https://www.instagram.com/club_aerounwired/" class="insta tool-tip" title="Instagram"><i class="fa fa-instagram"></i></a></li>
 							<li><a href="https://www.linkedin.com/company/aerounwired/" class="linkedin tool-tip" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
 							<li><a href="https://www.youtube.com/channel/UCjcbbcK1VAgwusNnKY3JDrQ" class="ytube tool-tip" title="You Tube"><i class="fa fa-youtube-play"></i></a></li>
 						</ul>	
@@ -467,7 +453,13 @@
         <script>
 var myVar;
 
+  function on() {
+  document.getElementById("overlay1").style.display = "block";
+}
 
+function off() {
+  document.getElementById("overlay1").style.display = "none";
+}
 function myFunction() {
     myVar = setTimeout(showPage, 2500);
 }

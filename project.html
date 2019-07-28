@@ -84,7 +84,7 @@
 	
 	<div  class="services">
 		<div class="container wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
-                    <h3 >Drone</h3>
+                    <h3 id="drone">Drone</h3>
 			<hr>
 			<div  class="col-md-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
                            <img src="images/projects/ddrone.jpg" class="img-responsive ">
@@ -126,7 +126,7 @@ search and rescue, surveillance and traffic monitoring etc.</p>
 	
 	<div class="sub-services">
 		<div class="container wow fadeInDown" delay-wow-duration="2000ms" delay-wow-delay="600ms">
-                    <h3><b>Vertical Landing And Take-Off ( VTOL )</b></h3>
+                    <h3><b id="vtol">Vertical Landing And Take-Off ( VTOL )</b></h3>
                     <hr>
 			<div class="col-md-6">
 				<div class="media">
@@ -164,7 +164,99 @@ search and rescue, surveillance and traffic monitoring etc.</p>
 						
 			<div  class="col-md-6">
 				<img src="images/projects/vtol1.jpg" class="img-responsive">
-				<p id="lg">Vertical Take Off and Landing aims to eliminate the need for runways for aircrafts. In theory, it should offer better maneuverability and more fuel efficiency than an aircraft using a runway. However, a truly efficient model has yet to be developed which realizes this. While there exist several helicopters in the world, there does not exist a convention winged aircraft with VTOL capabilities. </p>
+				<p>Vertical Take Off and Landing aims to eliminate the need for runways for aircrafts. In theory, it should offer better maneuverability and more fuel efficiency than an aircraft using a runway. However, a truly efficient model has yet to be developed which realizes this. While there exist several helicopters in the world, there does not exist a convention winged aircraft with VTOL capabilities. </p>
+			</div>
+		</div>
+	</div>
+    <div class="services">
+		<div class="container wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
+                    <h3 id="tv"> Thrust Vectoring</h3>
+			<hr>
+			<div  class="col-md-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
+				<img src="images/projects/thrustvectoring.gif" class="img-responsive ">
+                                <p>We all enjoy lighting up rocket crackers right..!?But we all just focus on the fact that it has to go up..just up..no matter which direction but it has to be in the sky for some time...But have you ever wondered about the fact that if we can't control these small cracker rockets, how do they controll the real rockets and missiles? What happens if we fail to control its direction? How do they do it? Well after reading this you will know how .<br>
+                                 thrust vectors as its name suggest is done by controlling the direction of thrust from its engine. When it turns in a direction the rocket also change its direction accordingly just like a fish uses its tail.   
+</p>
+			</div>
+			
+			<div class="col-md-6">
+				<div class="media">
+					<ul>
+						<li>
+							<div class="media-left">
+								<i class="fa fa-pencil"></i>						
+							</div>
+							<div class="media-body">
+								<h4 class="media-heading">Aim</h4>
+								<p>To manipulate the direction of the thrust from a rockets engine or motor in order to control it's attitude or angular velocity</p>
+							</div>
+						</li>
+						<li>
+							<div class="media-left">
+								<i class="fa fa-book"></i>						
+							</div>
+							<div   class="media-body">
+								<h4 class="media-heading">Approach</h4>
+								<p>The thrust vectoring system is an Arduino based system which uses the inputs from the gyro sensor to move the rocket motor using the metal gear servos for X-Y oriented movement thus determining the direction of the rocket. The two servos are attached to the rocket motor which is placed independent to the rocket body; thus determining the X and Y coordinates</p>
+							</div>
+						</li>
+						<!--<li>
+							<div class="media-left">
+								<i class="fa fa-rocket"></i>						
+							</div>
+							<div class="media-body">
+								<h4 class="media-heading">Progress</h4>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus interdum erat 
+								libero, pulvinar tincidunt leo consectetur eget.</p>
+							</div>
+						</li>-->
+					</ul>
+				</div>
+			</div>
+                        
+		</div>
+	</div>	
+     <div class="sub-services">
+		<div class="container wow fadeInDown" delay-wow-duration="2000ms" delay-wow-delay="600ms">
+                    <h3><a id="fin"><b>Fin Stabilzation</b></a></h3>
+                    <hr>
+			<div class="col-md-6">
+				<div class="media">
+					<ul>
+						<li>
+							<div class="media-left">
+								<i class="fa fa-pencil"></i>						
+							</div>
+							<div class="media-body">
+								<h4 class="media-heading">Aim</h4>
+								<p>To allow a rocket to maintain is orientation and intended flight path by providing a restoring torque caused by air drag</p>
+							</div>
+						</li>
+						<li>
+							<div class="media-left">
+								<i class="fa fa-book"></i>						
+							</div>
+							<div class="media-body">
+								<h4 class="media-heading">Approach</h4>
+								<p>By using an Arduino based system and a gyro sensor the vertical tilt of the rocket can be estimated. And servo controlled fins  can be used to provide the necessary torque required to correct the rockets trajectory.</p>
+							</div>
+						</li>
+						<!--<li>
+							<div class="media-left">
+								<i class="fa fa-rocket"></i>						
+							</div>
+							<div class="media-body">
+								<h4 class="media-heading">Progress</h4>
+								<p></p>
+							</div>
+						</li>-->
+					</ul>
+				</div>
+			</div>
+						
+			<div class="col-md-6">
+				<img src="images/projects/finjpg.jpg" class="img-responsive">
+				<p>Control systems for rockets keep a rocket stable in flight and steer it. Small rockets usually require only a stabilizing control system. Large rockets, such as the ones that launch satellites into orbit, require a system that not only stabilizes the rocket but also enables it to change course while in flight.<br>Fin stabilizers are an another way to stabilize the rockets. These are generally alingned in the direction of motion. But when the rocket changes its direction due to air flow , the air will strike these fin stabilizers and thus a component of this force is used to rotate the rocket back into the desired direction and thus stabilizing it.</p>
 			</div>
 		</div>
 	</div>
@@ -259,52 +351,7 @@ search and rescue, surveillance and traffic monitoring etc.</p>
 			</div>
 		</div>
 	</div>
-    <div class="services">
-		<div class="container wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
-                    <h3 id="lg">Landing Gear</h3>
-			<hr>
-			<div  class="col-md-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
-				<img src="images/projects/landinggear1.jpg" class="img-responsive ">
-                                <p>With the fast development of the world aerospace, the design and manufacture of landing gear are becoming hot topics nowadays. The landing gear is an important bearing support structure of aircraft, during the safe landing process of aircraft, larger load and stronger vibration between the aircraft and the ground will be produced, the buffer system of aircraft would absorb and consume huge impact energy, so the quality of the landing gear buffer system influence the safety and comfort of aircraft directly.</p>
-			</div>
-			
-			<div class="col-md-6">
-				<div class="media">
-					<ul>
-						<li>
-							<div class="media-left">
-								<i class="fa fa-pencil"></i>						
-							</div>
-							<div class="media-body">
-								<h4 class="media-heading">Aim</h4>
-								<p>Designing an efficient and highly effective undercarriage system, that can be modified and  used for any RC aircraft.</p>
-							</div>
-						</li>
-						<li>
-							<div class="media-left">
-								<i class="fa fa-book"></i>						
-							</div>
-							<div   class="media-body">
-								<h4 class="media-heading">Approach</h4>
-								<p>We are learning the basic designing criterion for landing gear, calculations involved, prominent designs, metallurgy etc.</p>
-							</div>
-						</li>
-						<!--<li>
-							<div class="media-left">
-								<i class="fa fa-rocket"></i>						
-							</div>
-							<div class="media-body">
-								<h4 class="media-heading">Progress</h4>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus interdum erat 
-								libero, pulvinar tincidunt leo consectetur eget.</p>
-							</div>
-						</li>-->
-					</ul>
-				</div>
-			</div>
-                        
-		</div>
-	</div>	
+    
 		<div class="services">
 		<div class="container wow fadeInDown" data-wow-duration="2000ms" data-wow-delay="600ms">
                     <h3>Hovercraft</h3>
@@ -373,7 +420,7 @@ search and rescue, surveillance and traffic monitoring etc.</p>
                                         <div id="text1">
                                             
                                             <p class="hdd"> Why do we need your help?<br></p>
-                                            <p class="hdd1">Unfortunately, a major problem in participating in the above events is the lack of funds. Aero-Unwired intends to take part in the SAE ADC 2018 and Pragyan 2018. The team requires money for the fabrication of the plane, which requires balsa and for the electronic components which are used to control the plane. We are also involved in community projects for which we are short of money. Both events are coming soon and we need to start on these as soon as possible.
+                                            <p class="hdd1">Unfortunately, a major problem in participating in the above events is the lack of funds. Aero-Unwired intends to take part in the SAE ADC 2020 and Pragyan 2020. The team requires money for the fabrication of the plane, which requires balsa and for the electronic components which are used to control the plane. We are also involved in community projects for which we are short of money. Both events are coming soon and we need to start on these as soon as possible.
                                                 <br><br>Proceed to Milaap Crowdfunding site <br><a class="hdd2" href="https://milaap.org/fundraisers/aerounwired">Milaap</a></p>
                                         <p class="hdd1">Contact Marketing Head for more info<br><a class="hdd2" href="contact.html">Click here</a></p>
                                         </div>

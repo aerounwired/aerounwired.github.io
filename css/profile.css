@@ -1,14 +1,31 @@
 .card {
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
    
-   margin: 30px;
+   margin: 70px;
    width: 400px;
    height:530px;
+  float: left;
     
     text-align: center;
     
   display: inline-block;
    
+}
+@media (max-width:768px){
+    .card{
+        transform: scale(.7); 
+        padding: 0px;
+        float: none;
+        margin: 0px;
+        width: 100%;
+        
+
+       
+       
+        
+       
+    }
+    
 }
 
 .title1 {

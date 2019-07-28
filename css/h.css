@@ -108,8 +108,10 @@ and open the template in the editor.
 {
     .hdd1{
         width: 300px;
-        font-size: 14px;
+        font-size: 12px;
         font-weight: 60;
         padding: 0px;
+        letter-spacing: .5px;
+            
     }
 }

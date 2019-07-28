@@ -281,6 +281,7 @@ div.spinner i:nth-child(8) {
     width: 100%;
     height: auto;
     
+    
 }
 .img-fac{
     width: 230px;
@@ -426,13 +427,7 @@ div.spinner i:nth-child(8) {
         left: 31%;
         top:30%;
     }
-    .card{
-        transform: scale(.8); 
-        margin: 0px;
-        padding: 0px;
-        max-width: 300px;
-       
-    }
+   
     .cent{
         padding: 0px;
         padding-top: -20px;

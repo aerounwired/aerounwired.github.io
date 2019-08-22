@@ -1,496 +1,849 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-   <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Deals with Rc Aircrafts and other aerospace related activities">
-  <meta name="keywords" content="Marketing,New Drone Tech,Innovative Projects">
-  <meta name="author" content="Aerounwired">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Aerounwired - Projects</title>
-  <link rel="shortcut icon" href="images/title/AERO1.ico" />
-    <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Deals with Rc Aircrafts and other aerospace related activities">
+	<meta name="keywords" content="Marketing,New Drone Tech,Innovative Projects">
+	<meta name="author" content="Aerounwired">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Aerounwired - Projects</title>
+	<link rel="shortcut icon" href="images/title/AERO1.ico" />
+	<!-- Bootstrap -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
 	<link rel="stylesheet" href="css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/animate.css">
 	<link href="css/prettyPhoto.css" rel="stylesheet">
-	<link href="css/style.css" rel="stylesheet" />	
-         <link href="css/hover.css" rel="stylesheet" />
-         <link href="css/h.css" rel="stylesheet" />
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
+	<link href="css/style.css" rel="stylesheet" />
+	<link href="css/hover.css" rel="stylesheet" />
+	<link href="css/h.css" rel="stylesheet" />
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-  
-  </head>
-  <body onload="myFunction()" style="margin: 0px">
-      <section id="loader" class="wrapper">
-  <div class="spinner">
-    <i></i>
-    <i></i>
-    <i></i>
-    <i></i>
-    <i></i>
-    <i></i>
-    <i></i>
-  </div>
-</section>
-<div id="page" style="display: none">
-	<header>		
-		<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-			<div class="navigation">
-				<div class="container">					
-					<div class="navbar-header">
-		
-                                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse.collapse">
-							<span class="sr-only">Toggle navigation</span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-						</button>
-						<div style="margin-left: 30px ">
-							<img class="logo1" src="images/aelogo.jpg" >
+
+</head>
+
+<body onload="myFunction()" style="margin: 0px">
+	<section id="loader" class="wrapper">
+		<div class="spinner">
+			<i></i>
+			<i></i>
+			<i></i>
+			<i></i>
+			<i></i>
+			<i></i>
+			<i></i>
+		</div>
+	</section>
+	<div id="page" style="display: none">
+		<header>
+			<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+				<div class="navigation">
+					<div class="container">
+						<div class="navbar-header">
+
+							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+								data-target=".navbar-collapse.collapse">
+								<span class="sr-only">Toggle navigation</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+							<div style="margin-left: 30px ">
+								<img class="logo1" src="images/aelogo.jpg">
+							</div>
+						</div>
+
+						<div class="navbar-collapse collapse">
+							<div class="menu">
+								<ul class="nav nav-tabs" role="tablist">
+									<li role="presentation"><a href="index.html">Home</a></li>
+									<li role="presentation"><a href="about.html">About Us</a></li>
+									<li role="presentation"><a href="project.html" class="active"
+											style="color: #269abc">Projects</a></li>
+									<li role="presentation"><a href="gallery.html">Gallery</a></li>
+									<li role="presentation"><a href="alumni.html">Alumni</a></li>
+									<li role="presentation"><a href="contact.html">Contact Us</a></li>
+								</ul>
+							</div>
 						</div>
 					</div>
-					
-					<div class="navbar-collapse collapse">							
-						<div class="menu">
-							<ul class="nav nav-tabs" role="tablist">
-								<li role="presentation"><a href="index.html" >Home</a></li>
-								<li role="presentation"><a href="about.html">About Us</a></li>
-								<li role="presentation"><a href="project.html" class="active" style="color: #269abc">Projects</a></li>								
-								<li role="presentation"><a href="alumni.html">Alumni</a></li>
-								<li role="presentation"><a href="contact.html">Contact Us</a></li>						
-							</ul>
-						</div>
-					</div>						
 				</div>
-			</div>	
-		</nav>	
+			</nav>
 
-	</header>
-	<div id="drone" style="background-color:black" id="breadcrumb">
-		<div  class="container">	
-			<div style="background-color:rgba(72,61,139,0);color:white" class="breadcrumb">							
-				<li ><a  href="index.html">Home</a></li>
-				<li>project</li>			
-			</div>		
-		</div>	
-	</div>
-	
-	<div  class="services">
-		<div class="container wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
-                    <h3 id="drone">Drone</h3>
-			<hr>
-			<div  class="col-md-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
-                           <img src="images/projects/ddrone.jpg" class="img-responsive ">
-                               <p>Unmanned aerial vehicles (UAV) are more properly known as Drone. Basically, drone is a flying
-robot. Working in combination with GPS, the flying machine may be remotely controlled or
-can fly autonomously by software controlled flight plans in their embedded systems. Drones are
-most often used in military services. However, it is also used for weather monitoring, firefighting,
-search and rescue, surveillance and traffic monitoring etc.</p>
-			</div>
-			
-			<div class="col-md-6">
-				<div class="media">
-					<ul>
-						<li>
-							<div class="media-left">
-								<i class="fa fa-pencil"></i>						
-							</div>
-							<div class="media-body">
-								<h4 class="media-heading">Aim</h4>
-								<p>To study the design and modifications of different kinds of drones specifically multi-rotors also known as multi-coptors which has simpler rotor mechanics required for flight control.</p>
-							</div>
-						</li>
-						<li>
-							<div class="media-left">
-								<i class="fa fa-book"></i>						
-							</div>
-							<div class="media-body">
-								<h4 class="media-heading">Approach</h4>
-								<p>Drone technology is constantly evolving as new innovation and big investment are bringing more advanced drones.aim is to Identify these new problms and accordingly design and modify quadcoptors. Some of the modification includes adding gps,  Obstacle Detection And Collision Avoidance Technology and adding different sensors to gesture controlled drones.</p>
-							</div>
-						</li>
-						
-					</ul>
-				</div>
-			</div>
-                        
-		</div>
-	</div>	
-	
-	<div class="sub-services">
-		<div class="container wow fadeInDown" delay-wow-duration="2000ms" delay-wow-delay="600ms">
-                    <h3><b id="vtol">Vertical Landing And Take-Off ( VTOL )</b></h3>
-                    <hr>
-			<div class="col-md-6">
-				<div class="media">
-					<ul>
-						<li>
-							<div class="media-left">
-								<i class="fa fa-pencil"></i>						
-							</div>
-							<div class="media-body">
-								<h4 class="media-heading">Aim</h4>
-								<p>To develop a VTOL (Vertical Take Off and Landing) RC aircraft and test out the flight characteristics as compared to a traditional fixed wing RC aircraft.</p>
-							</div>
-						</li>
-						<li>
-							<div class="media-left">
-								<i class="fa fa-book"></i>						
-							</div>
-							<div class="media-body">
-								<h4 class="media-heading">Approach</h4>
-								<p>The approach includes design of the RC VTOL aircraft based on previous models, fabrication of final design and fuselage balancing, and piloting of the VTOL after adding the wing.</p>
-							</div>
-						</li>
-						<!--<li>
-							<div class="media-left">
-								<i class="fa fa-rocket"></i>						
-							</div>
-							<div class="media-body">
-								<h4 class="media-heading">Progress</h4>
-								<p></p>
-							</div>
-						</li>-->
-					</ul>
-				</div>
-			</div>
-						
-			<div  class="col-md-6">
-				<img src="images/projects/vtol1.jpg" class="img-responsive">
-				<p>Vertical Take Off and Landing aims to eliminate the need for runways for aircrafts. In theory, it should offer better maneuverability and more fuel efficiency than an aircraft using a runway. However, a truly efficient model has yet to be developed which realizes this. While there exist several helicopters in the world, there does not exist a convention winged aircraft with VTOL capabilities. </p>
-			</div>
-		</div>
-	</div>
-    <div class="services">
-		<div class="container wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
-                    <h3 id="tv"> Thrust Vectoring</h3>
-			<hr>
-			<div  class="col-md-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
-				<img src="images/projects/thrustvectoring.gif" class="img-responsive ">
-                                <p>We all enjoy lighting up rocket crackers right..!?But we all just focus on the fact that it has to go up..just up..no matter which direction but it has to be in the sky for some time...But have you ever wondered about the fact that if we can't control these small cracker rockets, how do they controll the real rockets and missiles? What happens if we fail to control its direction? How do they do it? Well after reading this you will know how .<br>
-                                 thrust vectors as its name suggest is done by controlling the direction of thrust from its engine. When it turns in a direction the rocket also change its direction accordingly just like a fish uses its tail.   
-</p>
-			</div>
-			
-			<div class="col-md-6">
-				<div class="media">
-					<ul>
-						<li>
-							<div class="media-left">
-								<i class="fa fa-pencil"></i>						
-							</div>
-							<div class="media-body">
-								<h4 class="media-heading">Aim</h4>
-								<p>To manipulate the direction of the thrust from a rockets engine or motor in order to control it's attitude or angular velocity</p>
-							</div>
-						</li>
-						<li>
-							<div class="media-left">
-								<i class="fa fa-book"></i>						
-							</div>
-							<div   class="media-body">
-								<h4 class="media-heading">Approach</h4>
-								<p>The thrust vectoring system is an Arduino based system which uses the inputs from the gyro sensor to move the rocket motor using the metal gear servos for X-Y oriented movement thus determining the direction of the rocket. The two servos are attached to the rocket motor which is placed independent to the rocket body; thus determining the X and Y coordinates</p>
-							</div>
-						</li>
-						<!--<li>
-							<div class="media-left">
-								<i class="fa fa-rocket"></i>						
-							</div>
-							<div class="media-body">
-								<h4 class="media-heading">Progress</h4>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus interdum erat 
-								libero, pulvinar tincidunt leo consectetur eget.</p>
-							</div>
-						</li>-->
-					</ul>
-				</div>
-			</div>
-                        
-		</div>
-	</div>	
-     <div class="sub-services">
-		<div class="container wow fadeInDown" delay-wow-duration="2000ms" delay-wow-delay="600ms">
-                    <h3><a id="fin"><b>Fin Stabilzation</b></a></h3>
-                    <hr>
-			<div class="col-md-6">
-				<div class="media">
-					<ul>
-						<li>
-							<div class="media-left">
-								<i class="fa fa-pencil"></i>						
-							</div>
-							<div class="media-body">
-								<h4 class="media-heading">Aim</h4>
-								<p>To allow a rocket to maintain is orientation and intended flight path by providing a restoring torque caused by air drag</p>
-							</div>
-						</li>
-						<li>
-							<div class="media-left">
-								<i class="fa fa-book"></i>						
-							</div>
-							<div class="media-body">
-								<h4 class="media-heading">Approach</h4>
-								<p>By using an Arduino based system and a gyro sensor the vertical tilt of the rocket can be estimated. And servo controlled fins  can be used to provide the necessary torque required to correct the rockets trajectory.</p>
-							</div>
-						</li>
-						<!--<li>
-							<div class="media-left">
-								<i class="fa fa-rocket"></i>						
-							</div>
-							<div class="media-body">
-								<h4 class="media-heading">Progress</h4>
-								<p></p>
-							</div>
-						</li>-->
-					</ul>
-				</div>
-			</div>
-						
-			<div class="col-md-6">
-				<img src="images/projects/finjpg.jpg" class="img-responsive">
-				<p>Control systems for rockets keep a rocket stable in flight and steer it. Small rockets usually require only a stabilizing control system. Large rockets, such as the ones that launch satellites into orbit, require a system that not only stabilizes the rocket but also enables it to change course while in flight.<br>Fin stabilizers are an another way to stabilize the rockets. These are generally alingned in the direction of motion. But when the rocket changes its direction due to air flow , the air will strike these fin stabilizers and thus a component of this force is used to rotate the rocket back into the desired direction and thus stabilizing it.</p>
-			</div>
-		</div>
-	</div>
-	
-	<div class="services">
-		<div class="container wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
-                    <h3 id="lg">Landing Gear</h3>
-			<hr>
-			<div  class="col-md-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
-				<img src="images/projects/landinggear1.jpg" class="img-responsive ">
-                                <p>With the fast development of the world aerospace, the design and manufacture of landing gear are becoming hot topics nowadays. The landing gear is an important bearing support structure of aircraft, during the safe landing process of aircraft, larger load and stronger vibration between the aircraft and the ground will be produced, the buffer system of aircraft would absorb and consume huge impact energy, so the quality of the landing gear buffer system influence the safety and comfort of aircraft directly.</p>
-			</div>
-			
-			<div class="col-md-6">
-				<div class="media">
-					<ul>
-						<li>
-							<div class="media-left">
-								<i class="fa fa-pencil"></i>						
-							</div>
-							<div class="media-body">
-								<h4 class="media-heading">Aim</h4>
-								<p>Designing an efficient and highly effective undercarriage system, that can be modified and  used for any RC aircraft.</p>
-							</div>
-						</li>
-						<li>
-							<div class="media-left">
-								<i class="fa fa-book"></i>						
-							</div>
-							<div   class="media-body">
-								<h4 class="media-heading">Approach</h4>
-								<p>We are learning the basic designing criterion for landing gear, calculations involved, prominent designs, metallurgy etc.</p>
-							</div>
-						</li>
-						<!--<li>
-							<div class="media-left">
-								<i class="fa fa-rocket"></i>						
-							</div>
-							<div class="media-body">
-								<h4 class="media-heading">Progress</h4>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus interdum erat 
-								libero, pulvinar tincidunt leo consectetur eget.</p>
-							</div>
-						</li>-->
-					</ul>
-				</div>
-			</div>
-                        
-		</div>
-	</div>	
-      <div class="sub-services">
-		<div class="container wow fadeInDown" delay-wow-duration="2000ms" delay-wow-delay="600ms">
-                    <h3><a id="sol"><b>Solar Powered Aircraft</b></a></h3>
-                    <hr>
-			<div class="col-md-6">
-				<div class="media">
-					<ul>
-						<li>
-							<div class="media-left">
-								<i class="fa fa-pencil"></i>						
-							</div>
-							<div class="media-body">
-								<h4 class="media-heading">Aim</h4>
-								<p>To design a medium altitude long endurnce (MALE) UAV that runs on solar energy alone while transporting a payload</p>
-							</div>
-						</li>
-						<li>
-							<div class="media-left">
-								<i class="fa fa-book"></i>						
-							</div>
-							<div class="media-body">
-								<h4 class="media-heading">Approach</h4>
-								<p>The approach includes design of the RC VTOL aircraft based on previous models, fabrication of final design and fuselage balancing, and piloting of the VTOL after adding the wing.</p>
-							</div>
-						</li>
-						<!--<li>
-							<div class="media-left">
-								<i class="fa fa-rocket"></i>						
-							</div>
-							<div class="media-body">
-								<h4 class="media-heading">Progress</h4>
-								<p></p>
-							</div>
-						</li>-->
-					</ul>
-				</div>
-			</div>
-						
-			<div class="col-md-6">
-				<img src="images/projects/solar1.jpg" class="img-responsive">
-				<p>The association of renewable energy with our present technology is a very vital step in battling global warming and facing the energy crisis. A working solar UAV would be the first step to achieve this association. </p>
-			</div>
-		</div>
-	</div>
-    
-		<div class="services">
-		<div class="container wow fadeInDown" data-wow-duration="2000ms" data-wow-delay="600ms">
-                    <h3>Hovercraft</h3>
-			<hr>
-			<div  class="col-md-6 wow fadeInDown" data-wow-duration="2000ms" data-wow-delay="300ms">
-				<img src="images/projects/hovercraft1.jpg" class="img-responsive ">
-                                <p>A hovercraft, also known as an air-cushion vehicle or ACV, is a craft capable of travelling over land, water, mud, ice, and other surfaces. Hovercraft are hybrid ....</p>
-                                
-			</div>
-			
-			<div class="col-md-6">
-				<div class="media">
-					<ul>
-						<li>
-							<div class="media-left">
-								<i class="fa fa-pencil"></i>						
-							</div>
-							<div class="media-body">
-								<h4 class="media-heading">Aim</h4>
-								<p>Design and manufacture</p>
-							</div>
-						</li>
-						<li>
-							<div class="media-left">
-								<i class="fa fa-book"></i>						
-							</div>
-							<div class="media-body">
-								<h4 class="media-heading">Approach</h4>
-								<p>..</p>
-							</div>
-						</li>
-						<!--<li>
-							<div class="media-left">
-								<i class="fa fa-rocket"></i>						
-							</div>
-							<div class="media-body">
-								<h4 class="media-heading">Progress</h4>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus interdum erat 
-								libero, pulvinar tincidunt leo consectetur eget.</p>
-							</div>
-						</li>-->
-					</ul>
-				</div>
-			</div>
-                        
-		</div>
-	</div>	
-	<footer>
-		<div class="footer">
+		</header>
+		<div style="background-color:black" id="breadcrumb">
 			<div class="container">
-                            
-                            <div class="college">
-                                <div class="col-md-6 c" >
-                                   <a href="http://www.nitc.ac.in"><img class="logo2" src="images/college/NITC_LOGO.png"></a>
-                                   
-                                <div class=" cent" style="padding:5px" >
-                                  <p class="dis">National Institute of Technology<br>Calicut</p>
-                                   </div>
-                                    </div>
-                                <div class="col-md-6 cent " style="padding-top: 100px">
-                                  <p class="dis1">Sponsor Us?</p>
-                                  <div> Interested in sponsoring us. Start right now
-                                      
-                                      </div>
-                                  <div id="overlay1" onclick="off()">
-                                        <div id="text1">
-                                            
-                                            <p class="hdd"> Why do we need your help?<br></p>
-                                            <p class="hdd1">Unfortunately, a major problem in participating in the above events is the lack of funds. Aero-Unwired intends to take part in the SAE ADC 2020 and Pragyan 2020. The team requires money for the fabrication of the plane, which requires balsa and for the electronic components which are used to control the plane. We are also involved in community projects for which we are short of money. Both events are coming soon and we need to start on these as soon as possible.
-                                                <br><br>Proceed to Milaap Crowdfunding site <br><a class="hdd2" href="https://milaap.org/fundraisers/aerounwired">Milaap</a></p>
-                                        <p class="hdd1">Contact Marketing Head for more info<br><a class="hdd2" href="contact.html">Click here</a></p>
-                                        </div>
-                                      </div>
-                                           <div class="ion openbtn" onclick="on()">
-                                               <div class="svg-wrapper">
-                                              <svg height="60" width="320" xmlns="http://www.w3.org/2000/svg">
-                                                <rect class="shape" height="60" width="320" />
-                                              </svg>
-                                             <div class="text">Sponsor</div>
-                                          </div>
-                                               </div>
-                                    </div>
-                                </div>
-				<div class="social-icon" style="text-align: center">
-                                    <div class="col-md-12 font bounceIn" >
-                                        Follow us on social media
-                                        </div>
-					<div class="col-md-12">
-						<ul class="social-network">
-							<li><a href="https://www.facebook.com/UnwiredAeroNitCalicut/" class="fb tool-tip" title="Facebook"><i class="fa fa-facebook"></i></a></li>
-							<li><a href="https://www.instagram.com/club_aerounwired/" class="insta tool-tip" title="Instagram"><i class="fa fa-instagram"></i></a></li>
-							<li><a href="https://www.linkedin.com/company/aerounwired/" class="linkedin tool-tip" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
-							<li><a href="https://www.youtube.com/channel/UCjcbbcK1VAgwusNnKY3JDrQ" class="ytube tool-tip" title="You Tube"><i class="fa fa-youtube-play"></i></a></li>
-						</ul>	
+				<div style="background-color:rgba(72,61,139,0);color:white" class="breadcrumb">
+					<li><a href="index.html">Home</a></li>
+					<li>project</li>
+				</div>
+			</div>
+		</div>
+<div>
+	
+	<!-- <h2 class="stuproj">Status of projects</h2>
+		<div class="stuproj1" >
+		<p class="stuproj2">Ongoing<span class="ongoing"></span></p>
+		<p class="stuproj2">Completed<span class="completed"></span></p>
+		<p class="stuproj2">Upcoming<span class="upcoming"></span></p>
+		
+	</div> -->
+</div>
+		
+	<div class="services">
+			<div class="container wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
+				<h3>Drone</h3>
+				<hr>
+				<div class="col-md-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
+					<img src="images/projects/ddrone.jpg" class="img-responsive ">
+					<p>Source:Wikipedia</p>
+					<p>Unmanned aerial vehicles (UAV) are more properly known as Drone. Basically, drone is a flying
+						robot. Working in combination with GPS, the flying machine may be remotely controlled or
+						can fly autonomously by software controlled flight plans in their embedded systems. Drones are
+						most often used in military services. However, it is also used for weather monitoring,
+						firefighting,
+						search and rescue, surveillance and traffic monitoring etc.</p>
+				</div>
+
+				<div class="col-md-6">
+					<div class="media">
+						<ul>
+							<li>
+								<div class="media-left">
+									<i class="fa fa-pencil"></i>
+								</div>
+								<div class="media-body">
+									<h4 class="media-heading">Aim</h4>
+									<p>To study the design and modifications of different kinds of drones specifically
+										multi-rotors also known as multi-coptors which has simpler rotor mechanics
+										required for flight control.</p>
+								</div>
+							</li>
+							<li>
+								<div class="media-left">
+									<i class="fa fa-book"></i>
+								</div>
+								<div class="media-body">
+									<h4 class="media-heading">Approach</h4>
+									<p>Drone technology is constantly evolving as new innovation and big investment are
+										bringing more advanced drones.aim is to Identify these new problms and
+										accordingly design and modify quadcoptors. Some of the modification includes
+										adding gps, Obstacle Detection And Collision Avoidance Technology and adding
+										different sensors to gesture controlled drones.</p>
+								</div>
+							</li>
+
+						</ul>
 					</div>
 				</div>
-				
-				<div class="col-md-4 col-md-offset-4" >
-					<div class="copyright">
-						Copyright @ClubAerounwired
-					</div>
-                  
-				</div>						
+
 			</div>
-			
-			<div class="pull-right">
-				<a href="#home"  class="scrollup"><i style="color: white" class="fa fa-angle-up fa-3x"></i></a>
-			</div>		
 		</div>
-	</footer>
+
+		<div class="sub-services">
+			<div class="container wow fadeInDown" delay-wow-duration="2000ms" delay-wow-delay="600ms">
+				<h3><b>Vertical Landing And Take-Off ( VTOL )</b></h3>
+				<hr>
+				<div class="col-md-6">
+					<div class="media">
+						<ul>
+							<li>
+								<div class="media-left">
+									<i class="fa fa-pencil"></i>
+								</div>
+								<div class="media-body">
+									<h4 class="media-heading">Aim</h4>
+									<p>To develop a VTOL (Vertical Take Off and Landing) RC aircraft and test out the
+										flight characteristics as compared to a traditional fixed wing RC aircraft.</p>
+								</div>
+							</li>
+							<li>
+								<div class="media-left">
+									<i class="fa fa-book"></i>
+								</div>
+								<div class="media-body">
+									<h4 class="media-heading">Approach</h4>
+									<p>The approach includes design of the RC VTOL aircraft based on previous models,
+										fabrication of final design and fuselage balancing, and piloting of the VTOL
+										after adding the wing.</p>
+								</div>
+							</li>
+							<!--<li>
+							<div class="media-left">
+								<i class="fa fa-rocket"></i>						
+							</div>
+							<div class="media-body">
+								<h4 class="media-heading">Progress</h4>
+								<p></p>
+							</div>
+						</li>-->
+						</ul>
+					</div>
+				</div>
+
+				<div class="col-md-6">
+					<img src="images/projects/vtol1.jpg" class="img-responsive">
+					<p>Source:Wikipedia</p>
+					<p>Vertical Take Off and Landing aims to eliminate the need for runways for aircrafts. In theory, it
+						should offer better maneuverability and more fuel efficiency than an aircraft using a runway.
+						However, a truly efficient model has yet to be developed which realizes this. While there exist
+						several helicopters in the world, there does not exist a convention winged aircraft with VTOL
+						capabilities. </p>
+				</div>
+			</div>
+		</div>
+		<div class="services">
+			<div class="container wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
+				<h3> Thrust Vectoring</h3>
+				<hr>
+				<div class="col-md-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
+					<img src="images/projects/thrustvectoring.gif" class="img-responsive ">
+					<p>Source:Wikipedia</p>
+					<p>We all enjoy lighting up rocket crackers right..!?But we all just focus on the fact that it has
+						to go up..just up..no matter which direction but it has to be in the sky for some time...But
+						have you ever wondered about the fact that if we can't control these small cracker rockets, how
+						do they controll the real rockets and missiles? What happens if we fail to control its
+						direction? How do they do it? Well after reading this you will know how .<br>
+						thrust vectors as its name suggest is done by controlling the direction of thrust from its
+						engine. When it turns in a direction the rocket also change its direction accordingly just like
+						a fish uses its tail.
+					</p>
+				</div>
+
+				<div class="col-md-6">
+					<div class="media">
+						<ul>
+							<li>
+								<div class="media-left">
+									<i class="fa fa-pencil"></i>
+								</div>
+								<div class="media-body">
+									<h4 class="media-heading">Aim</h4>
+									<p>To manipulate the direction of the thrust from a rockets engine or motor in order
+										to control it's attitude or angular velocity</p>
+								</div>
+							</li>
+							<li>
+								<div class="media-left">
+									<i class="fa fa-book"></i>
+								</div>
+								<div class="media-body">
+									<h4 class="media-heading">Approach</h4>
+									<p>The thrust vectoring system is an Arduino based system which uses the inputs from
+										the gyro sensor to move the rocket motor using the metal gear servos for X-Y
+										oriented movement thus determining the direction of the rocket. The two servos
+										are attached to the rocket motor which is placed independent to the rocket body;
+										thus determining the X and Y coordinates</p>
+								</div>
+							</li>
+							<!--<li>
+							<div class="media-left">
+								<i class="fa fa-rocket"></i>						
+							</div>
+							<div class="media-body">
+								<h4 class="media-heading">Progress</h4>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus interdum erat 
+								libero, pulvinar tincidunt leo consectetur eget.</p>
+							</div>
+						</li>-->
+						</ul>
+					</div>
+				</div>
+
+			</div>
+		</div>
+		<div class="sub-services">
+			<div class="container wow fadeInDown" delay-wow-duration="2000ms" delay-wow-delay="600ms">
+				<h3><a><b>Fin Stabilzation</b></a></h3>
+				<hr>
+				<div class="col-md-6">
+					<div class="media">
+						<ul>
+							<li>
+								<div class="media-left">
+									<i class="fa fa-pencil"></i>
+								</div>
+								<div class="media-body">
+									<h4 class="media-heading">Aim</h4>
+									<p>To allow a rocket to maintain is orientation and intended flight path by
+										providing a restoring torque caused by air drag</p>
+								</div>
+							</li>
+							<li>
+								<div class="media-left">
+									<i class="fa fa-book"></i>
+								</div>
+								<div class="media-body">
+									<h4 class="media-heading">Approach</h4>
+									<p>By using an Arduino based system and a gyro sensor the vertical tilt of the
+										rocket can be estimated. And servo controlled fins can be used to provide the
+										necessary torque required to correct the rockets trajectory.</p>
+								</div>
+							</li>
+							<!--<li>
+							<div class="media-left">
+								<i class="fa fa-rocket"></i>						
+							</div>
+							<div class="media-body">
+								<h4 class="media-heading">Progress</h4>
+								<p></p>
+							</div>
+						</li>-->
+						</ul>
+					</div>
+				</div>
+
+				<div class="col-md-6">
+					<img src="images/projects/finjpg.jpg" class="img-responsive">
+					<p>Source:Wikipedia</p>
+					<p>Control systems for rockets keep a rocket stable in flight and steer it. Small rockets usually
+						require only a stabilizing control system. Large rockets, such as the ones that launch
+						satellites into orbit, require a system that not only stabilizes the rocket but also enables it
+						to change course while in flight.<br>Fin stabilizers are an another way to stabilize the
+						rockets. These are generally alingned in the direction of motion. But when the rocket changes
+						its direction due to air flow , the air will strike these fin stabilizers and thus a component
+						of this force is used to rotate the rocket back into the desired direction and thus stabilizing
+						it.</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="services">
+			<div class="container wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
+				<h3>Landing Gear</h3>
+				<hr>
+				<div class="col-md-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
+					<img src="images/projects/landinggear1.jpg" class="img-responsive ">
+					<p>Source:Wikipedia</p>
+					<p>With the fast development of the world aerospace, the design and manufacture of landing gear are
+						becoming hot topics nowadays. The landing gear is an important bearing support structure of
+						aircraft, during the safe landing process of aircraft, larger load and stronger vibration
+						between the aircraft and the ground will be produced, the buffer system of aircraft would absorb
+						and consume huge impact energy, so the quality of the landing gear buffer system influence the
+						safety and comfort of aircraft directly.</p>
+				</div>
+
+				<div class="col-md-6">
+					<div class="media">
+						<ul>
+							<li>
+								<div class="media-left">
+									<i class="fa fa-pencil"></i>
+								</div>
+								<div class="media-body">
+									<h4 class="media-heading">Aim</h4>
+									<p>Designing an efficient and highly effective undercarriage system, that can be
+										modified and used for any RC aircraft.</p>
+								</div>
+							</li>
+							<li>
+								<div class="media-left">
+									<i class="fa fa-book"></i>
+								</div>
+								<div class="media-body">
+									<h4 class="media-heading">Approach</h4>
+									<p>We are learning the basic designing criterion for landing gear, calculations
+										involved, prominent designs, metallurgy etc.</p>
+								</div>
+							</li>
+							<!--<li>
+							<div class="media-left">
+								<i class="fa fa-rocket"></i>						
+							</div>
+							<div class="media-body">
+								<h4 class="media-heading">Progress</h4>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus interdum erat 
+								libero, pulvinar tincidunt leo consectetur eget.</p>
+							</div>
+						</li>-->
+						</ul>
+					</div>
+				</div>
+
+			</div>
+		</div>
+		<div class="sub-services">
+			<div class="container wow fadeInDown" delay-wow-duration="2000ms" delay-wow-delay="600ms">
+				<h3><a><b>Solar Powered Aircraft</b></a></h3>
+				<hr>
+				<div class="col-md-6">
+					<div class="media">
+						<ul>
+							<li>
+								<div class="media-left">
+									<i class="fa fa-pencil"></i>
+								</div>
+								<div class="media-body">
+									<h4 class="media-heading">Aim</h4>
+									<p>To design a medium altitude long endurnce (MALE) UAV that runs on solar energy
+										alone while transporting a payload</p>
+								</div>
+							</li>
+							<li>
+								<div class="media-left">
+									<i class="fa fa-book"></i>
+								</div>
+								<div class="media-body">
+									<h4 class="media-heading">Approach</h4>
+									<p>The approach includes design of the RC VTOL aircraft based on previous models,
+										fabrication of final design and fuselage balancing, and piloting of the VTOL
+										after adding the wing.</p>
+								</div>
+							</li>
+							<!--<li>
+							<div class="media-left">
+								<i class="fa fa-rocket"></i>						
+							</div>
+							<div class="media-body">
+								<h4 class="media-heading">Progress</h4>
+								<p></p>
+							</div>
+						</li>-->
+						</ul>
+					</div>
+				</div>
+
+				<div class="col-md-6">
+					<img src="images/projects/solar1.jpg" class="img-responsive">
+					<p>Source:Wikipedia</p>
+					<p>The association of renewable energy with our present technology is a very vital step in battling
+						global warming and facing the energy crisis. A working solar UAV would be the first step to
+						achieve this association. </p>
+				</div>
+			</div>
+		</div>
+
+		<div class="services">
+			<div class="container wow fadeInDown" data-wow-duration="2000ms" data-wow-delay="600ms">
+				<h3>Hovercraft</h3>
+				<hr>
+				<div class="col-md-6 wow fadeInDown" data-wow-duration="2000ms" data-wow-delay="300ms">
+					<img src="images/projects/hovercraft1.jpg" class="img-responsive ">
+					<p>Source:Wikipedia</p>
+					<p>A hovercraft, also known as an air-cushion vehicle or ACV, is a craft capable of travelling over
+						land, water, mud, ice, and other surfaces. Hovercraft are hybrid ....</p>
+
+				</div>
+
+				<div class="col-md-6">
+					<div class="media">
+						<ul>
+							<li>
+								<div class="media-left">
+									<i class="fa fa-pencil"></i>
+								</div>
+								<div class="media-body">
+									<h4 class="media-heading">Aim</h4>
+									<p>To design and manufacturean efficient hovercraft</p>
+								</div>
+							</li>
+							<li>
+								<div class="media-left">
+									<i class="fa fa-book"></i>
+								</div>
+								<div class="media-body">
+									<h4 class="media-heading">Approach</h4>
+									<p>Inizialising the design and fabrication using suitable components</p>
+								</div>
+							</li>
+							<!--<li>
+							<div class="media-left">
+								<i class="fa fa-rocket"></i>						
+							</div>
+							<div class="media-body">
+								<h4 class="media-heading">Progress</h4>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus interdum erat 
+								libero, pulvinar tincidunt leo consectetur eget.</p>
+							</div>
+						</li>-->
+						</ul>
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="sub-services">
+			<div class="container wow fadeInDown" delay-wow-duration="2000ms" delay-wow-delay="600ms">
+				<h3><a id="sol"><b>Autonomous Aircraft</b></a></h3>
+				<hr>
+				<div class="col-md-6">
+					<div class="media">
+						<ul>
+							<li>
+								<div class="media-left">
+									<i class="fa fa-pencil"></i>
+								</div>
+								<div class="media-body">
+									<h4 class="media-heading">Aim</h4>
+									<p>To design and develop a fully automated RC Aircraft</p>
+								</div>
+							</li>
+							<li>
+								<div class="media-left">
+									<i class="fa fa-book"></i>
+								</div>
+								<div class="media-body">
+									<h4 class="media-heading">Approach</h4>
+									<p>Gaining knowledge in the field of electronics and application for the specified use.
+									</p>
+								</div>
+							</li>
+							<!--<li>
+							<div class="media-left">
+								<i class="fa fa-rocket"></i>						
+							</div>
+							<div class="media-body">
+								<h4 class="media-heading">Progress</h4>
+								<p></p>
+							</div>
+						</li>-->
+						</ul>
+					</div>
+				</div>
+
+				<div class="col-md-6">
+					<img src="images/projects/autonomousaircraft.jpg" class="img-responsive">
+					<p>Source:Wikipedia</p>
+					<p> </p>
+				</div>
+			</div>
+		</div>
+
+
+
+		<div class="services">
+			<div class="container wow fadeInDown" data-wow-duration="2000ms" data-wow-delay="600ms">
+				<h3>Ornithoper</h3>
+				<hr>
+				<div class="col-md-6 wow fadeInDown" data-wow-duration="2000ms" data-wow-delay="300ms">
+					<img src="images/projects/ornithopter.jpg" class="img-responsive ">
+					<p>Source:Wikipedia</p>
+					<p>An ornithopter is an aircraft that flies by flapping its wings. It is designed by imitating the
+						flapping wing flight of birds. An effective ornithopter will have wings capable of generating
+						both thrust (forward propeling force) and lift (force that keeps the craft airbone). These
+						forces must be strong enough to counter the effects of drag and weight of the craft. Practical
+						applications capitalize on the resemblance to birds or insects. They can be used for military
+						applications such as aerial reconnaissance without alerting the enemies that they are under
+						surveillance .</p>
+
+				</div>
+
+				<div class="col-md-6">
+					<div class="media">
+						<ul>
+							<li>
+								<div class="media-left">
+									<i class="fa fa-pencil"></i>
+								</div>
+								<div class="media-body">
+									<h4 class="media-heading">Aim</h4>
+									<p>Understanding and designing an ornithoper</p>
+								</div>
+							</li>
+							<li>
+								<div class="media-left">
+									<i class="fa fa-book"></i>
+								</div>
+								<div class="media-body">
+									<h4 class="media-heading">Approach</h4>
+									<p>Fabricating a model and analyzing the model using software </p>
+								</div>
+							</li>
+							<!--<li>
+							<div class="media-left">
+								<i class="fa fa-rocket"></i>						
+							</div>
+							<div class="media-body">
+								<h4 class="media-heading">Progress</h4>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus interdum erat 
+								libero, pulvinar tincidunt leo consectetur eget.</p>
+							</div>
+						</li>-->
+						</ul>
+					</div>
+				</div>
+
+			</div>
+		</div>
+		<div class="sub-services">
+			<div class="container wow fadeInDown" delay-wow-duration="2000ms" delay-wow-delay="600ms">
+				<h3><a><b>RC Boat</b></a></h3>
+				<hr>
+				<div class="col-md-6">
+					<div class="media">
+						<ul>
+							<li>
+								<div class="media-left">
+									<i class="fa fa-pencil"></i>
+								</div>
+								<div class="media-body">
+									<h4 class="media-heading">Aim</h4>
+									<p>Designing and modelling an Rc Boat according to the given constraints.</p>
+								</div>
+							</li>
+							<li>
+								<div class="media-left">
+									<i class="fa fa-book"></i>
+								</div>
+								<div class="media-body">
+									<h4 class="media-heading">Approach</h4>
+									<p>The approach includes design of the RC Boat along with the optimization between thrust and the weight of the boat.</p>
+								</div>
+							</li>
+							<!--<li>
+							<div class="media-left">
+								<i class="fa fa-rocket"></i>						
+							</div>
+							<div class="media-body">
+								<h4 class="media-heading">Progress</h4>
+								<p></p>
+							</div>
+						</li>-->
+						</ul>
+					</div>
+				</div>
+
+				<div class="col-md-6">
+					<img src="images/projects/rcboat.jpg" class="img-responsive">
+					<p>Source:Wikipedia</p>
+					<p>Radio controlled (or remote controlled) boats are controlled remotely using radio control
+						equipments. Types such as electric sport boats which are commonly used for entertainment
+						purposes are much slower compared to racing power boats which has additional remote controlled
+						functions for authenticity. Combat warships involves the firing of projectiles, usually
+						propelled by gas, at opposing ships to sink or damage them whereas the principle of power of
+						the wind acting on sails to propel the boat is used by sail boats. While scale boats can be
+						small enough to fit into your hand which are at times built using plans and/or photos.</p>
+				</div>
+			</div>
+		</div>
+
+
+		<div class="services">
+			<div class="container wow fadeInDown" data-wow-duration="2000ms" data-wow-delay="600ms">
+				<h3>Autogyro</h3>
+				<hr>
+				<div class="col-md-6 wow fadeInDown" data-wow-duration="2000ms" data-wow-delay="300ms">
+					<img src="images/projects/autogyro.jpg" class="img-responsive ">
+					<p>Source:Wikipedia</p>
+					<p>An autogyro also known as a gyroplane or gyrocopter, is a type of rotorcraft that uses an
+						unpowered rotor in free autorotation to develop lift. Forward thrust is provided independently,
+						typically by an engine-driven propeller. While similar to a helicopter rotor in appearance, the
+						autogyro's rotor must have air flowing across the rotor disc to generate rotation, and the air
+						flows upwards through the rotor disc rather than down. It actually uses pusher-puller
+						configuration. Genarally autogyros are not capable of vertical takeoff (except in a strong
+						headwind). It is perfect for customs coast-watch, surveillance of steep or very large borders,
+						drug-fighting strategies and military missions. The gyrocopter is the ideal aircraft for this
+						task due to its high visibility (semi-faired tandem cabin) and its wide range of flight
+						possibilities (hover, slow and fast flight, slide). It shows its versatility in agriculture
+						spraying, control of livestock farms. It is also used in aerial photography and filming.</p>
+
+				</div>
+
+				<div class="col-md-6">
+					<div class="media">
+						<ul>
+							<li>
+								<div class="media-left">
+									<i class="fa fa-pencil"></i>
+								</div>
+								<div class="media-body">
+									<h4 class="media-heading">Aim</h4>
+									<p>Designing an Autogyro by understanding the basic concept involved</p>
+								</div>
+							</li>
+							<li>
+								<div class="media-left">
+									<i class="fa fa-book"></i>
+								</div>
+								<div class="media-body">
+									<h4 class="media-heading">Approach</h4>
+									<p>Initial phase includes design and modelling an autogyro after which fabrication will begin using suitable materials.</p>
+								</div>
+							</li>
+							<!--<li>
+							<div class="media-left">
+								<i class="fa fa-rocket"></i>						
+							</div>
+							<div class="media-body">
+								<h4 class="media-heading">Progress</h4>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus interdum erat 
+								libero, pulvinar tincidunt leo consectetur eget.</p>
+							</div>
+						</li>-->
+						</ul>
+					</div>
+				</div>
+
+			</div>
+		</div>
+		<div class="sub-services">
+			<div class="container wow fadeInDown" delay-wow-duration="2000ms" delay-wow-delay="600ms">
+				<h3><a><b>Tricopter</b></a></h3>
+				<hr>
+				<div class="col-md-6">
+					<div class="media">
+						<ul>
+							<li>
+								<div class="media-left">
+									<i class="fa fa-pencil"></i>
+								</div>
+								<div class="media-body">
+									<h4 class="media-heading">Aim</h4>
+									<p>To design a tricopter capable of carrying out surveillance activities and other engaing tasks</p>
+								</div>
+							</li>
+							<li>
+								<div class="media-left">
+									<i class="fa fa-book"></i>
+								</div>
+								<div class="media-body">
+									<h4 class="media-heading">Approach</h4>
+									<p>The approach includes design of the tricopter and fabrication wih the materials available in the current market.</p>
+								</div>
+							</li>
+							<!--<li>
+								<div class="media-left">
+									<i class="fa fa-rocket"></i>						
+								</div>
+								<div class="media-body">
+									<h4 class="media-heading">Progress</h4>
+									<p></p>
+								</div>
+							</li>-->
+						</ul>
+					</div>
+				</div>
+
+				<div class="col-md-6">
+					<img src="images/projects/tricopter.jpg" class="img-responsive">
+					
+					<p>A tricopter is similar to a helicopter except that it has three vertical rotors as exposed to a
+						heli's one ( or two in the case of coaxial). It is a remote controlled aircraft .The design of a
+						tricopter includes three motors, one of which is vectored. A tricopter consists of three motors,
+						three controllers, one servo and four gyros. Three rotors, which generate a greater buoyancy are
+						used for the movement and control. Three generally equal booms are attached on the trunk of the
+						tricopter the distance is 120 degrees to each other.A gyroscope is used for stabilization.It
+						stabilizes the yaw axis and prevents unwanted rotation.The beauty of the design is that three
+						ordinary outtrunners direct driving ordinary propellers can be used. Four helicopter gyros makes
+						the tricopter super stable. And to make it yaw a servo tilts the back motor. A tricopter
+						stabilizes automatically. The advantages of the tricopter are they are small ,durable, stable
+						flight with unique designs, very agile due to swivel rear engines and have a larger front field
+						of view of camera</p>
+				</div>
+			</div>
+		</div>
+
+		<footer>
+			<div class="footer">
+				<div class="container">
+
+					<div class="college">
+						<div class="col-md-6 c">
+							<a href="http://www.nitc.ac.in"><img class="logo2" src="images/college/NITC_LOGO.png"></a>
+
+							<div class=" cent" style="padding:5px">
+								<p class="dis">National Institute of Technology<br>Calicut</p>
+							</div>
+						</div>
+						<div class="col-md-6 cent " style="padding-top: 100px">
+							<p class="dis1">Why Sponsor Us?</p>
+							<div> Interested in sponsoring us. Start right now
+
+							</div>
+							<div id="overlay1" onclick="off()">
+								<div id="text1">
+
+									<p class="hdd"> Why do we need your help?<br></p>
+									<p class="hdd1">Unfortunately, a major problem in participating in the above events
+										is the lack of funds. Aero-Unwired intends to take part in the SAE ADC 2020 and
+										Pragyan 2020. The team requires money for the fabrication of the plane, which
+										requires balsa and for the electronic components which are used to control the
+										plane. We are also involved in community projects for which we are short of
+										money. Both events are coming soon and we need to start on these as soon as
+										possible.
+										<br><br>Proceed to Milaap Crowdfunding site <br><a class="hdd2"
+											href="https://milaap.org/fundraisers/aerounwired">Milaap</a></p>
+									<p class="hdd1">Contact Marketing Head for more info<br><a class="hdd2"
+											href="contact.html">Click here</a></p>
+								</div>
+							</div>
+							<div class="ion openbtn" onclick="on()">
+								<div class="svg-wrapper">
+									<svg height="60" width="320" xmlns="http://www.w3.org/2000/svg">
+										<rect class="shape" height="60" width="320" />
+									</svg>
+									<div class="text">Sponsor</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="social-icon" style="text-align: center">
+						<div class="col-md-12 font bounceIn">
+							Follow us on social media
+						</div>
+						<div class="row">
+							<a href="https://www.facebook.com/UnwiredAeroNitCalicut" class="f"><i
+									class="fa fa-facebook"></i></a>
+							<a href="https://www.linkedin.com/company/aerounwired/" class="linn"><i
+									class="fa fa-linkedin"></i></a>
+							<a href="https://www.youtube.com/channel/UCjcbbcK1VAgwusNnKY3JDrQ" class="yo"> <i
+									class="fa fa-youtube-play"></i></a>
+							<a href="https://www.instagram.com/club_aerounwired/" class="in"><i
+									class="fa fa-instagram"></i></a>
+						</div>
+					</div>
+
+					<div class="col-md-4 col-md-offset-4">
+						<div class="copyright">
+							Copyright @ClubAerounwired
+						</div>
+
+					</div>
+				</div>
+
+				<div class="pull-right">
+					<a href="#home" class="scrollup"><i style="color: white" class="fa fa-angle-up fa-3x"></i></a>
+				</div>
+			</div>
+		</footer>
 
 	</div>
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-	<script src="js/jquery-2.1.1.min.js"></script>	
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<script src="js/jquery-2.1.1.min.js"></script>
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="js/bootstrap.min.js"></script>
 	<script src="js/jquery.prettyPhoto.js"></script>
-    <script src="js/jquery.isotope.min.js"></script>  
+	<script src="js/jquery.isotope.min.js"></script>
 	<script src="js/wow.min.js"></script>
 	<script src="js/functions.js"></script>
 	<script>
-var myVar;
+		var myVar;
 
-  function on() {
-  document.getElementById("overlay1").style.display = "block";
-}
+		function on() {
+			document.getElementById("overlay1").style.display = "block";
+		}
 
-function off() {
-  document.getElementById("overlay1").style.display = "none";
-}
-function myFunction() {
-    myVar = setTimeout(showPage, 2500);
-}
+		function off() {
+			document.getElementById("overlay1").style.display = "none";
+		}
+		function myFunction() {
+			myVar = setTimeout(showPage, 2500);
+		}
 
-function showPage() {
-  document.getElementById("loader").style.display = "none";
-  document.getElementById("page").style.display = "block";
-}
-</script>
+		function showPage() {
+			document.getElementById("loader").style.display = "none";
+			document.getElementById("page").style.display = "block";
+		}
+	</script>
 
-  </body>
+</body>
+
 </html>

@@ -471,6 +471,7 @@ div.spinner i:nth-child(8) {
 }
 .head1 {
   margin-top: 0px;
+  padding-top: 20px;
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 4rem;
 }
@@ -522,6 +523,7 @@ div.spinner i:nth-child(8) {
     padding: none;
   }
   .head1 {
+    padding-top: 4px;
     font-size: 3rem;
   }
   .ppp, .para{

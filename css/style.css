@@ -8,6 +8,9 @@
 @import url("font-awesome.css");
 /* ==== overwrite bootstrap standard ==== */
 @import url("animate.css");
+.update_1{
+  text-align: center;
+}
 #displayy, #displayy1, #displayy2 {
   display: none;
   position: fixed;

@@ -1,9 +1,9 @@
 .card {
-    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
    
-   margin: 70px;
-   width: 400px;
-   height:530px;
+   
+   margin: 20px;
+   width: 200px;
+   height:auto;
   float: left;
     
     text-align: center;
